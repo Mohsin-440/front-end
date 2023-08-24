@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+  @apply font-lf;
+}
+.c:hover{
+  filter: brightness(1.05) blur(.8px);
+  transition-duration: 200ms;
+  transition: ease-in-out 200ms;
+}
